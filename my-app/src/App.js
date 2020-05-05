@@ -3,7 +3,11 @@ import './styles.css';
 
 function App() {
 	return (
-		<h1 className = "first">Hello React Welcome to Styles Tag</h1>
+		<h1 
+		style = {{
+			color: "green",
+			"text-align": "center"
+		}}>Hello React Welcome to Styles Tag</h1>
 	)
 }
 
